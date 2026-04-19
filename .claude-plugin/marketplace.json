@@ -1,11 +1,11 @@
 {
-  "name": "fuelguage",
+  "name": "fuelgauge",
   "owner": {
     "name": "Aditya Arakeri"
   },
   "plugins": [
     {
-      "name": "fuelguage",
+      "name": "fuelgauge",
       "source": "./",
       "description": "Cross-platform status line with folder, git branch, and color-coded usage bars (context, 5h, 7d)."
     }

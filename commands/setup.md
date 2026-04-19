@@ -46,9 +46,11 @@ Do NOT proceed to step 5 until jq is installed on Unix.
 
 ## Step 5: Write statusLine config into user settings
 
-Read `~/.claude/settings.json` (create it as `{}` if missing). Merge in a `statusLine` key:
+Read `~/.claude/settings.json` (create it as `{}` if missing). Merge in a `statusLine` key.
 
-**Unix config:**
+**CRITICAL:** Write the `${CLAUDE_PLUGIN_ROOT}` token *literally* into `settings.json` — do **not** substitute it with the expanded absolute path you may see rendered above. Claude Code expands the variable at runtime, so the literal token survives plugin reinstalls and cache-path changes. If you write the expanded path, the status line will silently break the next time the plugin moves.
+
+**Unix config (write exactly this — keep `${CLAUDE_PLUGIN_ROOT}` as a literal string):**
 ```json
 {
   "statusLine": {
@@ -59,7 +61,7 @@ Read `~/.claude/settings.json` (create it as `{}` if missing). Merge in a `statu
 }
 ```
 
-**Windows config:**
+**Windows config (write exactly this — keep `${CLAUDE_PLUGIN_ROOT}` as a literal string):**
 ```json
 {
   "statusLine": {

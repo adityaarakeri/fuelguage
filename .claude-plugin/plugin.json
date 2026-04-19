@@ -1,12 +1,12 @@
 {
-  "name": "fuelguage",
+  "name": "fuelgauge",
   "version": "0.1.0",
   "description": "A cross-platform status line for Claude Code showing folder, git branch, and color-coded progress bars for context, 5-hour, and 7-day usage.",
   "author": {
     "name": "Aditya Arakeri"
   },
-  "homepage": "https://github.com/adityaarakeri/fuelguage",
-  "repository": "https://github.com/adityaarakeri/fuelguage",
+  "homepage": "https://github.com/adityaarakeri/fuelgauge",
+  "repository": "https://github.com/adityaarakeri/fuelgauge",
   "license": "MIT",
   "keywords": ["statusline", "usage", "rate-limits", "git", "context"]
 }
