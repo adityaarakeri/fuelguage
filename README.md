@@ -20,7 +20,7 @@ Green under 70%, yellow 70–89%, red at 90%+.
 
 ## Why?
 
-Claude Code's rate limits are per-5h and per-7d. Blowing through your weekly budget without noticing is a real problem — this keeps it in your face.
+Claude Code's rate limits are per-5h and per-7d. Blowing through your weekly budget without noticing is a real problem this keeps it in your face.
 
 ## Install
 
