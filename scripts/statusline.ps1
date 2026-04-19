@@ -1,4 +1,4 @@
-# fuelguage: folder, git branch, color-coded progress bars
+# fuelgauge: folder, git branch, color-coded progress bars
 # Windows PowerShell 5.1 and PowerShell 7+
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 

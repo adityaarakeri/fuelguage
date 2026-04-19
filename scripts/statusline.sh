@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# fuelguage: folder, git branch, color-coded progress bars
+# fuelgauge: folder, git branch, color-coded progress bars
 # Works on macOS, Linux, WSL2
 
 input=$(cat)
@@ -10,7 +10,7 @@ CYAN='\033[36m'; MAGENTA='\033[35m'
 
 # --- Parse JSON (jq) ---
 if ! command -v jq >/dev/null 2>&1; then
-  printf 'fuelguage: jq not found. Install jq (brew/apt/winget) and reload Claude Code.'
+  printf 'fuelgauge: jq not found. Install jq (brew/apt/winget) and reload Claude Code.'
   exit 0
 fi
 

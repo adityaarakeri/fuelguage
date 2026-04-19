@@ -1,8 +1,8 @@
 ---
-description: Configure fuelguage in your Claude Code settings
+description: Configure fuelgauge in your Claude Code settings
 ---
 
-You are configuring the fuelguage plugin for the current user. Follow these steps exactly.
+You are configuring the fuelgauge plugin for the current user. Follow these steps exactly.
 
 ## Step 1: Detect platform
 
@@ -22,7 +22,7 @@ The plugin is installed at `${CLAUDE_PLUGIN_ROOT}`. Build the script path:
 - Unix (macOS / Linux / WSL): `${CLAUDE_PLUGIN_ROOT}/scripts/statusline.sh`
 - Windows native: `${CLAUDE_PLUGIN_ROOT}\scripts\statusline.ps1`
 
-If `CLAUDE_PLUGIN_ROOT` is not set, fall back to `~/.claude/plugins/marketplaces/fuelguage/plugins/fuelguage/`.
+If `CLAUDE_PLUGIN_ROOT` is not set, fall back to `~/.claude/plugins/marketplaces/fuelgauge/plugins/fuelgauge/`.
 
 ## Step 3: Make bash script executable (Unix only)
 

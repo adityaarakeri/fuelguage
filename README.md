@@ -1,8 +1,8 @@
 ```
 ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
-█░▄▄█░██░█░▄▄█░████░▄▄▄█░██░█░▄▄▀█░▄▄▄█░▄▄
-█░▄██░██░█░▄▄█░████░█▄▀█░██░█░▀▀░█░█▄▀█░▄▄
-█▄████▄▄▄█▄▄▄█▄▄███▄▄▄▄██▄▄▄█▄██▄█▄▄▄▄█▄▄▄
+█░▄▄█░██░█░▄▄█░████░▄▄▄█░▄▄▀█░██░█░▄▄▄█░▄▄
+█░▄██░██░█░▄▄█░████░█▄▀█░▀▀░█░██░█░█▄▀█░▄▄
+█▄████▄▄▄█▄▄▄█▄▄███▄▄▄▄█▄██▄██▄▄▄█▄▄▄▄█▄▄▄
 ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
 ```
 
@@ -29,7 +29,7 @@ Green under 70%, yellow 70–89%, red at 90%+.
 
 ## Demo
 
-![fuelguage status line](demo.png)
+![fuelgauge status line](demo.png)
 
 ## Why?
 
@@ -38,9 +38,9 @@ Claude Code's rate limits are per-5h and per-7d. Blowing through your weekly bud
 ## Install
 
 ```
-/plugin marketplace add adityaarakeri/fuelguage
-/plugin install fuelguage
-/fuelguage:setup
+/plugin marketplace add adityaarakeri/fuelgauge
+/plugin install fuelgauge
+/fuelgauge:setup
 ```
 
 Restart Claude Code after setup.
@@ -58,8 +58,8 @@ No. The status line runs locally, reads data Claude Code already has, and makes 
 ## Uninstall
 
 ```
-/fuelguage:uninstall
-/plugin uninstall fuelguage
+/fuelgauge:uninstall
+/plugin uninstall fuelgauge
 ```
 
 ## Manual setup (without the slash command)
