@@ -6,7 +6,7 @@
 ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
 ```
 
-A cross-platform Claude Code status line with folder, git branch, and color-coded progress bars for context, 5-hour, and 7-day usage.
+>A cross-platform Claude Code status line with folder, git branch, and color-coded progress bars for context, 5-hour, and 7-day usage.
 
 ```
 my-project | (main) │ ctx ███░░░░░░░  28% │ 5h █████░░░░░  47% │ 7d ██░░░░░░░░  19%
